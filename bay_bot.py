@@ -7,10 +7,9 @@ Original file is located at
     https://colab.research.google.com/drive/1ln0OHpRV-Ad7Cgl-Puudwx0ssLQ8nipN
 """
 
-!pip install chatterbot_corpus
-
 # লাইব্রেরি ইমপোর্ট
 from chatterbot import ChatBot
+import os
 from chatterbot.trainers import ChatterBotCorpusTrainer
 
 # চ্যাটবট তৈরি
